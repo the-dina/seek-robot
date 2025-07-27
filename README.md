@@ -45,3 +45,9 @@ The application follows a clean 3-layer architecture:
 - **Infrastructure Layer**: Handles I/O and external dependencies
 
 > **Note**: As requested, the application may seem slightly overengineered. I didn't get the chance to implement an IoC (Inversion of Control) pattern throughout. So, some dependencies are currently instantiated directly in the constructors. If I had more time, I would have preferred to use an IoC container, especially for a production-grade application.
+
+## Functional Testing
+
+
+https://github.com/user-attachments/assets/dbd3e08f-aae9-4631-873b-6ba79540dc90
+
