@@ -1,0 +1,23 @@
+{
+  "name": "seek-robot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Robot Challenge - A simulation of a toy robot moving on a 5x5 tabletop",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "vitest": "^3.2.4"
+  }
+}
